@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Displayoddindexes {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter a string : ");
+		String s = input.nextLine();
+		
+		int i = 1;
+		while(i<s.length()) {
+			if (i%2!=0) {
+				System.out.print(s.charAt(i));
+			}
+			i = i+2;
+		}
+}
+}
