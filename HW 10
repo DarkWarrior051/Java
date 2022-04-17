@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class hw10 {
+	public static void main(String[] args) {
+	    System.out.print("Enter an Ascii code:");
+		Scanner input = new Scanner(System.in);
+		int a = input.nextInt();
+		System.out.print("The character for the ASCII code" +a +"is " + (char)a);
+
+}
+}
