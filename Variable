@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Variable1 {
+	public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+	    System.out.print("Enter a number :  ");
+	    double number1 = input.nextDouble();
+	    System.out.print("Enter a number :  ");
+	    double number2 = input.nextDouble();
+	    System.out.print("Enter a number :  ");
+	    double number3 = input.nextDouble();
+	    System.out.print("Enter a number :  ");
+	    double number4 = input.nextDouble();
+	    System.out.print("Enter a number :  ");
+	    double number5 = input.nextDouble();
+	    double avg =  (number1 + number2 + number3 + number4 + number5 ) / 5;
+	    
+	    // Display result
+	     System.out.println("The average of the 5 numbers is " + avg);
+	}
+}
