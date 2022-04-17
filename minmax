@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class minmaxpractice {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+        System.out.print("Enter three numbers: ");
+        double x = input.nextDouble();
+        double y = input.nextDouble();
+        double z = input.nextDouble();
+        
+        System.out.println("The highest number is " + Math.max(z, Math.max(x,y)));
+        System.out.println("The lowest number is " + Math.min(z, Math.min(x,y)));
+	}
+}
