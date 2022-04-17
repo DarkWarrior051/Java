@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Cents {
+	public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+	    System.out.print("Enter the number of cents :  ");
+	    int numcents = input.nextInt();
+	    
+	    System.out.println("The amount of Quarters is: " + (numcents / 25));
+	    System.out.println("The amount of Dimes is: "+ (numcents % 25)/10);
+	    System.out.println("The amount of Nickels is: "+ (((numcents % 25)%10)/5)) ;
+	    System.out.println("The amount of Pennies is: " + (((numcents % 25)%10)%5));
+	    
+	    
+}
+}
