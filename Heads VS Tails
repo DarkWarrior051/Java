@@ -1,0 +1,17 @@
+
+public class hw18 {
+	public static void main(String[] args) {
+		int heads=0;
+		int tails=0;
+		for (int i = 1 ; i <= 1000000; i++) {
+			if ((int)(Math.random()*2)==0)
+				heads++;
+			else 
+				tails++;
+		}
+		System.out.println ( "The amount of heads is "+ heads +"and the amount of tails is "+tails);
+			
+		
+	}
+
+}
